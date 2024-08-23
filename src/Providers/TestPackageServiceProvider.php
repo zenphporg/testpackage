@@ -1,6 +1,6 @@
 <?php
 
-namespace Zuma\TestPackage\Providers;
+namespace Zen\TestPackage\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

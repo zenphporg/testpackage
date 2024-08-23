@@ -1,6 +1,6 @@
 <?php
 
-// use Zuma\Testpackage\Http\Controllers\TestpackageController;
+// use Zen\Testpackage\Http\Controllers\TestpackageController;
 
 // Route::get('/testpackages', [TestpackageController::class, 'index'])->name('testpackages.index');
 // Route::get('/testpackages/create', [TestpackageController::class, 'create'])->name('testpackages.create');

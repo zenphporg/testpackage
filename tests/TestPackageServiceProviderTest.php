@@ -1,6 +1,6 @@
 <?php
 
-use Zuma\TestPackage\Providers\TestPackageServiceProvider;
+use Zen\TestPackage\Providers\TestPackageServiceProvider;
 
 it('registers a test service', function () {
   $provider = new TestPackageServiceProvider($this->app);
