@@ -1,24 +1,24 @@
 {
-  "name": "zuma/testpackage",
-  "description": "Basic module package for testing live module installs in zuma/modulize.",
-  "type": "project",
+  "name": "zenphp/testpackage",
+  "description": "Basic module package for testing live module installs in zenphp/modulr.",
+  "type": "zen-module",
   "license": "MIT",
   "keywords": [
-    "zuma",
+    "zenphp",
     "testpackage",
-    "modulize"
+    "modulr"
   ],
   "authors": [
     {
-      "name": "Jetstreamlabs, LLC.",
-      "email": "hello@jetstreamlabs.com"
+      "name": "SMV",
+      "email": "secondman@zenphp.org"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Zuma\\TestPackage\\": "src/",
-      "Zuma\\TestPackage\\Database\\Factories\\": "database/factories/",
-      "Zuma\\TestPackage\\Database\\Seeders\\": "database/seeders/"
+      "Zen\\TestPackage\\": "src/",
+      "Zen\\TestPackage\\Database\\Factories\\": "database/factories/",
+      "Zen\\TestPackage\\Database\\Seeders\\": "database/seeders/"
     }
   },
   "autoload-dev": {
@@ -30,7 +30,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Zuma\\TestPackage\\Providers\\TestPackageServiceProvider"
+        "Zen\\TestPackage\\Providers\\TestPackageServiceProvider"
       ]
     }
   }
